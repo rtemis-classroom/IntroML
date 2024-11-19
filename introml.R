@@ -15,7 +15,7 @@ library(rtemis)
 
 # Data ----
 # Source: https://www.openml.org/search?type=data&sort=runs&status=active&qualities.NumberOfInstances=between_1000_10000&qualities.NumberOfFeatures=gte_0&qualities.NumberOfClasses=lte_1&tags.tag=medicine&id=43672
-# Download and unzip
+# Click on "download" at top right and unzip on your local machine
 # Read data (change this to your local path)
 dat <- read("~/icloud/Data/OpenML/43672_HeartDisease/dataset.arff")
 
